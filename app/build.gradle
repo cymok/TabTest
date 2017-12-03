@@ -27,8 +27,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     compile 'com.shizhefei:ViewPagerIndicator:1.1.6'
-    //由于用到了v4和recyclerview所以也要导入他们 否则find不到view
-    compile 'com.android.support:support-v4:26.1.0'
-    compile 'com.android.support:recyclerview-v7:26.1.0'
 
 }
